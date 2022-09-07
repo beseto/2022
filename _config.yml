@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@2.0.0"
+remote_theme: "DigitaleGesellschaft/jekyll-theme-conference"
 plugins:
   - jekyll-include-cache
 
