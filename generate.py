@@ -51,6 +51,17 @@ keywords = [
 ]
 
 
+PREDEFINED_ENTRIES = [
+    {"name": "Opening", "time_start": "9:00", "time_end": "9:10"},
+    {"name": "Discussion 1", "time_start": "10:10", "time_end": "10:30"},
+    {"name": "Discussion 2", "time_start": "11:35", "time_end": "11:55"},
+    {"name": "Lunch break", "time_start": "11:55", "time_end": "13:00"},
+    {"name": "Short Oral Presentations", "time_start": "13:00", "time_end": "14:30"},
+    {"name": "Discussion 3", "time_start": "16:40", "time_end": "17:00"},
+    {"name": "Closing", "time_start": "17:00", "time_end": "17:10"},
+]
+
+
 def generate_program(tbl: pd.DataFrame):
     # pre-defined structures
     def get_entries(df: pd.DataFrame) -> list[dict[str, str]]:
@@ -64,39 +75,52 @@ def generate_program(tbl: pd.DataFrame):
             res.append(item)
         return res
 
+    def sort_entries(entries: list[dict[str, str]]) -> list[dict[str, str]]:
+        return sorted(entries, key=lambda x: list(map(int, x["time_start"].split(":"))))
+
     res = {
         "days": [
             {
-                "name": "BESETO",
-                "abbr": "BESETO",
+                "name": "Main Sessions",
+                "abbr": "Main",
                 "date": "2022-11-13",
                 "rooms": [
                     {
                         "name": "Main",
-                        "talks": get_entries(tbl[tbl["Type"] != "Short Oral"]),
+                        "talks": sort_entries(
+                            get_entries(tbl[tbl["Type"] != "Short Oral"])
+                            + PREDEFINED_ENTRIES
+                        ),
                     },
+                ],
+            },
+            {
+                "name": "Short Oral Sessions",
+                "abbr": "ShortOral",
+                "date": "2022-11-13",
+                "rooms": [
                     {
                         "name": "Room A",
-                        "talks": get_entries(tbl[tbl["Room"] == "A"]),
+                        "talks": sort_entries(get_entries(tbl[tbl["Room"] == "A"])),
                     },
                     {
                         "name": "Room B",
-                        "talks": get_entries(tbl[tbl["Room"] == "B"]),
+                        "talks": sort_entries(get_entries(tbl[tbl["Room"] == "B"])),
                     },
                     {
                         "name": "Room C",
-                        "talks": get_entries(tbl[tbl["Room"] == "C"]),
+                        "talks": sort_entries(get_entries(tbl[tbl["Room"] == "C"])),
                     },
                     {
                         "name": "Room D",
-                        "talks": get_entries(tbl[tbl["Room"] == "D"]),
+                        "talks": sort_entries(get_entries(tbl[tbl["Room"] == "D"])),
                     },
                     {
                         "name": "Room E",
-                        "talks": get_entries(tbl[tbl["Room"] == "E"]),
+                        "talks": sort_entries(get_entries(tbl[tbl["Room"] == "E"])),
                     },
                 ],
-            }
+            },
         ]
     }
     yaml.dump(res, open(Path(".") / "_data" / "program.yml", "w"), sort_keys=False)
@@ -135,6 +159,22 @@ categories:
             f.write(content.format(**talk, cats=cats, links=links))
 
 
+def generate_predefs():
+    for item in PREDEFINED_ENTRIES:
+        with open(
+            Path(".")
+            / "_talks"
+            / f"{item['name'].lower().replace(' ', '_').replace('#','')}.md",
+            "w",
+        ) as f:
+            typ = (
+                item["name"].replace("Discussion", "Symposium")
+                if item["name"].startswith("Discussion")
+                else "Other"
+            )
+            f.write(f"---\nname: {item['name']}\ncategories:\n  - {typ}\n---\n")
+
+
 def generate_persons(tbl: pd.DataFrame):
     content = """---
 name: {name}
@@ -144,9 +184,12 @@ last_name: {lst}
 
 """
 
-    done_names = set()
+    done_names: set[str] = set()
     for talk in tbl.to_dict("records"):
         name = talk["Presenter"]
+        if name in done_names:
+            continue
+        done_names.add(name)
         if name.startswith("Mr."):
             name = " ".join(name.split(" ")[1:])
         fst, lst = name.split(" ")
@@ -171,3 +214,4 @@ if __name__ == "__main__":
     generate_program(df)
     generate_talks(df)
     generate_persons(df)
+    generate_predefs()
