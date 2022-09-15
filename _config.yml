@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-baseurl: "/2022/" # the subpath of your site, e.g. /blog
+baseurl: "/2022" # the subpath of your site, e.g. /blog
 url: "https://beseto.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
@@ -36,11 +36,12 @@ exclude:
   - LICENSE.md
   - REDISTRIBUTED.md
   - purgecss.config.js
+  - generate.py
 
-title: The 9th BESETO International Psychiatry Conference
+title: BESETO 2022
 preposition: at
 description: >-
-  Conference of a random organization on January 1st in Zurich, Switzerland
+  The 9th BESETO International Psychiatry Conference
 # Collections and their defaults
 collections:
   talks:
@@ -81,9 +82,6 @@ conference:
 
   # Navigation bar
   navigation:
-    logo:
-      name: Digital Society Switzerland
-      # img: ''
     links:
       - name: Program
         relative_url: /program/
@@ -165,9 +163,11 @@ conference:
       - name: Symposium 3
         color: warning
       - name: Special Talk
-        color: alert
+        color: danger
       - name: Short Oral
         color: dark
+      - name: Other
+        color: secondary
 
     # Hide icons on talk overview page
     hide_icons: false
