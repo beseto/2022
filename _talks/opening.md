@@ -1,0 +1,5 @@
+---
+name: Opening
+categories:
+  - Other
+---
