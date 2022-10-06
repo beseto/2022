@@ -7,7 +7,7 @@ categories:
   - Beijing
   - Mood disorders
   - Psychopharmacology
-  - Genetics and molecular genetics
+  - Genetics & molecular genetics
 links:
   - name: Slides
     file: dummy.pdf

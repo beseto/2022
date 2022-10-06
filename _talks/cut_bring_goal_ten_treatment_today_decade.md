@@ -6,8 +6,8 @@ categories:
   - Short Oral
   - Beijing
   - Suicide prevention
-  - Mental disorders in childhood and adolescence
-  - Behavioural syndromes associated with physiological disturbances and physical factors
+  - Childhood & adolescence
+  - Behavioral syndromes associated w/ physical factors
 links:
   - name: Slides
     file: dummy.pdf

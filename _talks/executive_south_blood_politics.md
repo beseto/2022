@@ -5,7 +5,7 @@ speakers:
 categories:
   - Short Oral
   - Beijing
-  - Substance abuse and dependence
+  - Substance abuse/dependence
 links:
   - name: Slides
     file: dummy.pdf

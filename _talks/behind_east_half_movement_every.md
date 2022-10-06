@@ -5,7 +5,7 @@ speakers:
 categories:
   - Short Oral
   - Seoul
-  - Mental health and welfare
+  - Mental health & welfare
 links:
   - name: Slides
     file: dummy.pdf

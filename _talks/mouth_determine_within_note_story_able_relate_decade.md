@@ -5,7 +5,7 @@ speakers:
 categories:
   - Short Oral
   - Tokyo
-  - Mental disorders in childhood and adolescence
+  - Childhood & adolescence
 links:
   - name: Slides
     file: dummy.pdf

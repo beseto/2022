@@ -7,7 +7,7 @@ categories:
   - Tokyo
   - Laboratory tests/biomarkers
   - Social psychiatry
-  - Mental health and welfare
+  - Mental health & welfare
 
 ---
 

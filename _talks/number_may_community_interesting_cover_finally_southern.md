@@ -5,7 +5,7 @@ speakers:
 categories:
   - Short Oral
   - Beijing
-  - Neurotic disorders and related disorders
+  - Neurotic disorders
 links:
   - name: Slides
     file: dummy.pdf

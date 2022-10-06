@@ -5,7 +5,7 @@ speakers:
 categories:
   - Symposium 2
   - Tokyo
-  - Organic and symptomatic mental disorders
+  - Organic/symptomatic disorders
   - Emergency psychiatry
   - AI
 

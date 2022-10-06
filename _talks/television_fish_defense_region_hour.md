@@ -7,7 +7,7 @@ categories:
   - Tokyo
   - Psychosocial therapy/psychoeducation
   - Psychotherapy
-  - Substance abuse and dependence
+  - Substance abuse/dependence
 links:
   - name: Slides
     file: dummy.pdf

@@ -7,7 +7,7 @@ categories:
   - Beijing
   - Mood disorders
   - Animal model/basic research
-  - Mental disorders in childhood and adolescence
+  - Childhood & adolescence
 
 ---
 

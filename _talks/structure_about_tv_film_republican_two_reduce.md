@@ -6,7 +6,7 @@ categories:
   - Short Oral
   - Seoul
   - Forensic psychiatry
-  - Neurotic disorders and related disorders
+  - Neurotic disorders
 links:
   - name: Slides
     file: dummy.pdf

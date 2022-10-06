@@ -5,7 +5,7 @@ speakers:
 categories:
   - Short Oral
   - Beijing
-  - Genetics and molecular genetics
+  - Genetics & molecular genetics
   - Sleep disorders
   - Dementia
 links:

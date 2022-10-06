@@ -6,7 +6,7 @@ categories:
   - Short Oral
   - Tokyo
   - Symptomatology
-  - Neurotic disorders and related disorders
+  - Neurotic disorders
   - Neurochemistry
 links:
   - name: Slides

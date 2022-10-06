@@ -5,7 +5,7 @@ speakers:
 categories:
   - Symposium 3
   - Seoul
-  - Organic and symptomatic mental disorders
+  - Organic/symptomatic disorders
   - Laboratory tests/biomarkers
 
 ---
