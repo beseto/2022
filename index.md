@@ -35,4 +35,4 @@ We sincerely hope that the 2022 BESETO meeting is fruitful and successful enough
 
 <h3 class="pb-2 pt-2" style="font-weight: 300;">Links</h3>
 
-<a href="https://www.icba2023korea.com"><img width="400px" src="documents/icba_banner.jpeg"></a>
+<a href="http://www.icba2023korea.com"><img width="400px" src="documents/icba_banner.jpeg"></a>
