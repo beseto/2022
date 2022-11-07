@@ -5,28 +5,35 @@ days:
   rooms:
   - name: Main
     talks:
+    - name: Sign in on Zoom
+      time_start: '8:30'
+      time_end: '9:00'
     - name: Opening
       time_start: '9:00'
       time_end: '9:10'
-    - name: Indicate represent cell thought market effort notice
+    - name: Research on Genetic Susceptibility of Schizophrenia
       time_start: '9:10'
       time_end: '9:30'
-    - name: Environmental all law wind
+    - name: Optimal conditions for entraining gamma waves using sensory stimulation
+        in the human brain
       time_start: '9:30'
       time_end: '9:50'
-    - name: Speak notice PM quickly current bar
+    - name: The Asian Consortium on MRI Studies in Psychosis
       time_start: '9:50'
       time_end: '10:10'
     - name: Discussion 1
       time_start: '10:10'
       time_end: '10:30'
-    - name: Reflect grow clear culture message
+    - name: "The Attitude and Perception of Physicians on Early Diagnosis and Treatment\
+        \ of Alzheimer\u2019s Disease: A Nationwide Cross-sectional Survey (APPEAL)\
+        \ in China"
       time_start: '10:35'
       time_end: '10:55'
-    - name: Catch build about American at home
+    - name: Altered cortical gyrification as a predictive marker of treatment resistance
+        in patients with first-episode psychosis
       time_start: '10:55'
       time_end: '11:15'
-    - name: While compare bit couple offer wife
+    - name: The Accuracy of Clinical Diagnosis and Necessity of Autopsy
       time_start: '11:15'
       time_end: '11:35'
     - name: Discussion 2
@@ -38,16 +45,18 @@ days:
     - name: Short Oral Presentations
       time_start: '13:00'
       time_end: '14:30'
-    - name: Door bar camera method way
+    - name: Introduction to Tojisha-Kenkyu in Japan
       time_start: '14:35'
       time_end: '15:35'
-    - name: Look cultural be
+    - name: 'Prevalence of Depressive Disorders and Treatment in China: A Cross-sectional
+        Study'
       time_start: '15:40'
       time_end: '16:00'
-    - name: Man west do music base
+    - name: Prenatal and Perinatal risk factors for Autism spectrum disorder
       time_start: '16:00'
       time_end: '16:20'
-    - name: Rate fact then continue star
+    - name: 'Tokyo Teen Cohort Study: A Prospective Cohort Study on General Population
+        of Adolescents'
       time_start: '16:20'
       time_end: '16:40'
     - name: Discussion 3
@@ -62,146 +71,179 @@ days:
   rooms:
   - name: Room A
     talks:
-    - name: Way as rise total
+    - name: Therapeutic outcomes wide association scan (TOWAS) of different antipsychotics
+        in schizophrenia
       time_start: '13:00'
       time_end: '13:10'
-    - name: Mouth determine within note story able relate decade
+    - name: 'Increased neuromelanin accumulation in schizophrenia patients: a neuromelanin-sensitive
+        MRI study'
       time_start: '13:10'
       time_end: '13:20'
-    - name: Any save wind goal stock free within bag
+    - name: Gender Effect on the Incidence of Schizophrenia in Japan
       time_start: '13:20'
       time_end: '13:30'
-    - name: Agreement east detail way most for
+    - name: Negative Symptom Dimensions and Social Functioning in Patients with Schizophrenia
       time_start: '13:30'
       time_end: '13:40'
-    - name: Card soon country blood world
+    - name: Verbal fluency data as a predictor of clinical course of individuals at
+        clinical high-risk for psychosis
       time_start: '13:40'
       time_end: '13:50'
-    - name: Far second worker
-      time_start: '13:50'
-      time_end: '14:00'
-    - name: Them quite rule toward word fine sometimes
+    - name: 'Discrimination of auditory verbal hallucination in schizophrenia based
+        on the brain networks: an EEG study'
       time_start: '14:00'
       time_end: '14:10'
-    - name: Reduce sound she write analysis administration
+    - name: Clinical Characteristics of Comorbid Tic Disorders in Autism Spectrum
+        Disorder-Exploratory Analysis
       time_start: '14:10'
       time_end: '14:20'
-    - name: Candidate ago reach box
+    - name: The Role of Betaine in Schizophrenia
       time_start: '14:20'
       time_end: '14:30'
   - name: Room B
     talks:
-    - name: Country agreement car likely economy
+    - name: Incongruent grey matter atrophy and functional connectivity of striatal
+        subregions in behavioral variant frontotemporal dementia
       time_start: '13:00'
       time_end: '13:10'
-    - name: Particularly body manage try laugh
+    - name: "Cortical gyrification differences between early- and late-onset obsessive\u2013\
+        compulsive disorder: Neurobiological evidence for neurodevelopmentally distinct\
+        \ subtypes"
       time_start: '13:10'
       time_end: '13:20'
-    - name: Executive south blood politics
+    - name: Group-exercise participation, executive function and associated brain
+        structures in children with ADHD
       time_start: '13:20'
       time_end: '13:30'
-    - name: Give manager receive record security song
+    - name: 'Brain functional changes across mood states in bipolar disorder: from
+        a large-scale network perspective'
       time_start: '13:30'
       time_end: '13:40'
-    - name: Security attention finally look during early fill food
+    - name: Frontoparietal White Matter Anatomy in Patients with Obsessive-Compulsive
+        Disorder
       time_start: '13:40'
       time_end: '13:50'
-    - name: Sort protect protect third
+    - name: "Whole-brain coherence declines in the motor task \u2013 Wavelet analysis\
+        \ on task functional MRI data"
       time_start: '13:50'
       time_end: '14:00'
-    - name: Name a behind report lay state
+    - name: What is the relationship between atypical features of facial emotion recognition
+        function and white matter microstructure alterations in autism?
       time_start: '14:00'
       time_end: '14:10'
-    - name: Skill item movie season
+    - name: Functional imaging of insomnia disorder across wakefulness and sleep
       time_start: '14:10'
       time_end: '14:20'
-    - name: Number may community interesting cover finally southern
+    - name: 'The segregation of emotion dysregulation in adults with ADHD from the
+        comorbid status of major depressive disorder: evidence from resting-state
+        functional connectivity of the amygdala subregions'
       time_start: '14:20'
       time_end: '14:30'
   - name: Room C
     talks:
-    - name: Color black show born eye
+    - name: Relationship between sleep disturbances and dementia
       time_start: '13:00'
       time_end: '13:10'
-    - name: Reduce service level class
+    - name: Characteristics of primary age-related tauopathy defined by neuroimaging
+        biomarkers
       time_start: '13:10'
       time_end: '13:20'
-    - name: Usually TV they manage trip
+    - name: 'Being Praised for Prosocial Behaviour Longitudinally reduces Depressive
+        Symptoms in Early-Adolescents: A Population-based Cohort Study'
       time_start: '13:20'
       time_end: '13:30'
-    - name: Through myself five drug
+    - name: A Phase 3, Multicenter, Double-blind, Randomized, Placebo-controlled Clinical
+        Trial to Verify the Efficacy and Safety of Ansofaxine for Major Depressive
+        Disorder
       time_start: '13:30'
       time_end: '13:40'
-    - name: Chair executive democratic future he really yes
+    - name: Mental Health Concerns in Parents of Children with Autism Spectrum Disorder
       time_start: '13:40'
       time_end: '13:50'
-    - name: Others hard prevent author early society
+    - name: Longitudinal Relations between Mismatch Negativity and Psychological Difficulties
+        in Mid-adolescence
       time_start: '13:50'
       time_end: '14:00'
-    - name: Cut bring goal ten treatment today decade
+    - name: 'The CAFF Camp Program: A Resilience-based Group Intervention for Children
+        of Parents with Mental Illness'
       time_start: '14:00'
       time_end: '14:10'
-    - name: Audience police low against government pattern apply
+    - name: "Different executive function impairments in medication-na\xEFve children\
+        \ with attention-deficit/hyperactivity disorder comorbid with oppositional\
+        \ defiant disorder and conduct disorder"
       time_start: '14:10'
       time_end: '14:20'
-    - name: None value team school during similar itself
+    - name: 'Discrimination of auditory verbal hallucination in schizophrenia based
+        on the brain networks: an EEG study'
       time_start: '14:20'
       time_end: '14:30'
   - name: Room D
     talks:
-    - name: Direction mind today its will increase way
+    - name: A 15-year follow-up study of dementia
       time_start: '13:00'
       time_end: '13:10'
-    - name: Television fish defense region hour
+    - name: Development and validation of cerebral white matter hyperintensity probability
+        map of Korean elderly
       time_start: '13:10'
       time_end: '13:20'
-    - name: Company best example also ask
+    - name: Epilepsy Intervention in Psychiatric Ward
       time_start: '13:20'
       time_end: '13:30'
-    - name: Data ground result election
+    - name: A case of psychogenic non-epileptic seizure in which antipsychotic drugs
+        reduced seizures after examination in epilepsy monitoring unit in a psychiatric
+        ward
       time_start: '13:30'
       time_end: '13:40'
-    - name: Red dark particular hundred grow wide
+    - name: Genome-wide gene-environment interaction analysis of childhood maltreatment
+        for major depressive disorder
       time_start: '13:40'
       time_end: '13:50'
-    - name: Poor teacher set heart
+    - name: GWAS-identified bipolar disorder risk allele in the FADS1/2 gene region
+        links mood episodes and unsaturated fatty acid metabolism in mutant mice
       time_start: '13:50'
       time_end: '14:00'
-    - name: Nice certain bit world
+    - name: Synergistic interaction of high blood pressure and cerebral beta-amyloid
+        on tau pathology
       time_start: '14:00'
       time_end: '14:10'
-    - name: Former draw together order its job
+    - name: Pilot Study on the Efficacy and Feasibility of Streamlined Cognitive Behavioral
+        Therapy for Depression
       time_start: '14:10'
       time_end: '14:20'
-    - name: Behind east half movement every
+    - name: Analysis of the relationship between activated plasma MMP9 levels and
+        volumes of subcortical regions.
       time_start: '14:20'
       time_end: '14:30'
   - name: Room E
     talks:
-    - name: Recognize move glass military
+    - name: An epidemiological study of mental disability in community adults in China
       time_start: '13:00'
       time_end: '13:10'
-    - name: Baby about site whether trouble degree my
+    - name: Analyses of REM sleep without atonia and neurocognitive function in REM
+        sleep behavior disorder
       time_start: '13:10'
       time_end: '13:20'
-    - name: Structure about TV film Republican two reduce
+    - name: The associations of behavioral/emotional problems with testosterone and
+        amygdala volume in early adolescent boys
       time_start: '13:20'
       time_end: '13:30'
-    - name: Case election success idea
+    - name: 'Comparison of Autonomous sensory meridian response and binaural auditory
+        beats effects on stress reduction: A randomized double-blind trial'
       time_start: '13:30'
       time_end: '13:40'
-    - name: Every again bag pretty tax player
+    - name: 'Development of a computer application to predict suicidal attempt: A
+        prospective cohort study'
       time_start: '13:40'
       time_end: '13:50'
-    - name: Sound every idea produce theory national
+    - name: 'The Longitudinal Relationship between Dissociative Symptoms and Self-harm
+        in Adolescents: A Population-based Cohort Study'
       time_start: '13:50'
       time_end: '14:00'
-    - name: Paper experience speech other guess paper type
+    - name: Influence of biogenetic explanations of mental disorders on stigma and
+        help seeking behavior A systematic review and meta analysis
       time_start: '14:00'
       time_end: '14:10'
-    - name: Make prevent themselves away
+    - name: Systematic Review of Cognitive Behavioral Therapy Programs on GamingInternet
+        Use Disorder Focusing on CBT Techniques Used
       time_start: '14:10'
       time_end: '14:20'
-    - name: Republican own certain money until radio girl
-      time_start: '14:20'
-      time_end: '14:30'
