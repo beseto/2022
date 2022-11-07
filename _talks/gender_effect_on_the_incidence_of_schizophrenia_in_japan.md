@@ -8,9 +8,6 @@ categories:
   - Schizophrenia and related disorders
   - Epidemiology
   - Social psychiatry
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

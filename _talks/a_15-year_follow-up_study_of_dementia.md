@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Beijing
   - Dementia
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

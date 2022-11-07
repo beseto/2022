@@ -7,9 +7,6 @@ categories:
   - Tokyo
   - Genetics & molecular genetics
   - Animal model/basic research
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Genetics & molecular genetics
   - Neuroimaging
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

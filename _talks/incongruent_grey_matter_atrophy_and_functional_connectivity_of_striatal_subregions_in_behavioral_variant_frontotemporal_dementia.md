@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Neuropsychology
   - Neuroimaging
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

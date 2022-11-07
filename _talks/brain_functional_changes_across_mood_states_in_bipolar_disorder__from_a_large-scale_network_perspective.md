@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Mood disorders
   - Neuroimaging
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

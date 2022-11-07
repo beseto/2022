@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Sleep disorders
   - Mental disorders in old age
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

@@ -8,9 +8,6 @@ categories:
   - Childhood & adolescence
   - Community mental health services
   - Social psychiatry
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

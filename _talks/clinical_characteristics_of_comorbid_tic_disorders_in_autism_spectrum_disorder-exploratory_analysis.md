@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Seoul
   - Childhood & adolescence
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

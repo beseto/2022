@@ -8,9 +8,6 @@ categories:
   - Mood disorders
   - Psychotherapy
   - Psychosocial therapy/psychoeducation
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

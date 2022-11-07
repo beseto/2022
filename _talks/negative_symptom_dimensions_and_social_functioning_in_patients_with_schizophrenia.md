@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Schizophrenia and related disorders
   - Symptomatology
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

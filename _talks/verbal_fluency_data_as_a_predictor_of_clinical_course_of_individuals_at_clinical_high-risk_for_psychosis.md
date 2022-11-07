@@ -7,9 +7,6 @@ categories:
   - Seoul
   - Schizophrenia and related disorders
   - Neuropsychology
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

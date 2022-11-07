@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Seoul
   - Suicide prevention
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

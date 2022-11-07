@@ -9,9 +9,6 @@ categories:
   - Childhood & adolescence
   - Epidemiology
   - Social psychiatry
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

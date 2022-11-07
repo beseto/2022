@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Seoul
   - Sleep disorders
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Seoul
   - Pharmacotherapy
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

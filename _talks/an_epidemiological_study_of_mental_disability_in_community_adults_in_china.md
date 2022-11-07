@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Epidemiology
   - Social psychiatry
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

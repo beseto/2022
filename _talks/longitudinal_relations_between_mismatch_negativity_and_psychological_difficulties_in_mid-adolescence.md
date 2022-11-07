@@ -8,9 +8,6 @@ categories:
   - Childhood & adolescence
   - Neuropsychology
   - Neurophysiology
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

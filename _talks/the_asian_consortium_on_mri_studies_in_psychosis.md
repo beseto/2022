@@ -1,7 +1,8 @@
 ---
 name: "The Asian Consortium on MRI Studies in Psychosis"
 speakers:
-  - "Shinsuke Koike & Naohiro Okada"
+  - "Shinsuke Koike"
+  - "Naohiro Okada"
 categories:
   - Symposium 1
   - Tokyo

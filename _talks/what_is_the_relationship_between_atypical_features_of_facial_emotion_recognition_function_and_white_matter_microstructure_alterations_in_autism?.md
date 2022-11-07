@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Childhood & adolescence
   - Neuroimaging
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

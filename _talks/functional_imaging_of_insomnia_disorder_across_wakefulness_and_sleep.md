@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Sleep disorders
   - Neuroimaging
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

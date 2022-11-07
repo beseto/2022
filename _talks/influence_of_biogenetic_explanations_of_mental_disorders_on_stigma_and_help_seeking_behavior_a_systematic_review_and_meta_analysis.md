@@ -7,9 +7,6 @@ categories:
   - Seoul
   - Mental health & welfare
   - Social psychiatry
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

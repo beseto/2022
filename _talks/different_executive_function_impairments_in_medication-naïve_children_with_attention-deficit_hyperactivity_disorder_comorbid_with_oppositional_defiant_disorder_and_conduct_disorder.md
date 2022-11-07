@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Beijing
   - Childhood & adolescence
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

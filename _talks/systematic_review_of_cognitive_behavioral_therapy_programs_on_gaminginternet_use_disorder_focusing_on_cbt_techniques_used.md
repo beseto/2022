@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Seoul
   - Psychosocial therapy/psychoeducation
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

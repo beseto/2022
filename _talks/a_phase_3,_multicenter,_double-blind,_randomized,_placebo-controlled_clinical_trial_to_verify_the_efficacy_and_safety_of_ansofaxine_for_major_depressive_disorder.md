@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Beijing
   - Psychopharmacology
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

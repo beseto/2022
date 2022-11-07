@@ -7,9 +7,6 @@ categories:
   - Beijing
   - Schizophrenia and related disorders
   - Psychopharmacology
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

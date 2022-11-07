@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Seoul
   - Neuroimaging
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

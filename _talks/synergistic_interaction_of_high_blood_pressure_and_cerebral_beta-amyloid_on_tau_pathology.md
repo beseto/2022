@@ -7,9 +7,6 @@ categories:
   - Seoul
   - Dementia
   - Neuropathology
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

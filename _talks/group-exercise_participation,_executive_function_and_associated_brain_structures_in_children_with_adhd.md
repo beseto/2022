@@ -8,9 +8,6 @@ categories:
   - Childhood & adolescence
   - Neuroimaging
   - Others
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

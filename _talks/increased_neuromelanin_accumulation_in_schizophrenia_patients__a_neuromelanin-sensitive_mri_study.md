@@ -6,9 +6,6 @@ categories:
   - Short Oral
   - Seoul
   - Schizophrenia and related disorders
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

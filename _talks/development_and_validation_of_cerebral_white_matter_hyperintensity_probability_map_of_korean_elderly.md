@@ -7,9 +7,6 @@ categories:
   - Seoul
   - Dementia
   - Neuroimaging
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 

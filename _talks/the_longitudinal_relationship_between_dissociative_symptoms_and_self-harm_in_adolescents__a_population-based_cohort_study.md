@@ -8,9 +8,6 @@ categories:
   - Neurotic disorders
   - Childhood & adolescence
   - Suicide prevention
-links:
-  - name: Slides
-    file: dummy.pdf
 
 ---
 
