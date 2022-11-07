@@ -38,6 +38,7 @@ exclude:
   - purgecss.config.js
   - "*.py"
   - "*.ipynb"
+  - "*.xlsx"
   - Gemfile
   - Gemfile.lock
 
@@ -109,8 +110,8 @@ conference:
 
   # Main landing page
   main:
-    # logo:
-    #   img: ''
+    logo:
+      img: 'logo.jpg'
     #links:
     #  - name: Program
     #    relative_url: /program/

@@ -1,21 +1,11 @@
 ---
-layout: home
+layout: default
 ---
 
-<p class="pb-4 lead">
-<span class="pr-3">
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16" style="vertical-align:baseline;">
-  <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
-  <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-</svg> November 13, 2022
-</span>
-<span>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map" viewBox="0 0 16 16" style="vertical-align:baseline;">
-  <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
-  <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
-</svg> Online
-</span>
-</p>
+<div class="jumbotron" style="padding-top: 3rem">
+<div class="container">
+
+<img src="assets/images/logo.jpg" class="w-100 pb-4">
 
 The BESETO International Psychiatry Conference is an international conference held every year jointly by the psychiatric departments at Seoul National University, Peking University, and the University of Tokyo.
 
@@ -36,3 +26,6 @@ We sincerely hope that the 2022 BESETO meeting is fruitful and successful enough
 <h3 class="pb-2 pt-2" style="font-weight: 300;">Links</h3>
 
 <a href="http://www.icba2023korea.com"><img width="400px" src="documents/icba_banner.jpeg"></a>
+
+</div>
+</div>
