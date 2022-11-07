@@ -52,6 +52,7 @@ keywords = [
 
 
 PREDEFINED_ENTRIES = [
+    {"name": "Sign in on Zoom", "time_start": "8:30", "time_end": "9:00"},
     {"name": "Opening", "time_start": "9:00", "time_end": "9:10"},
     {"name": "Discussion 1", "time_start": "10:10", "time_end": "10:30"},
     {"name": "Discussion 2", "time_start": "11:35", "time_end": "11:55"},
@@ -128,9 +129,9 @@ def generate_program(tbl: pd.DataFrame):
 
 def generate_talks(tbl: pd.DataFrame):
     content = """---
-name: {Title}
+name: "{Title}"
 speakers:
-  - {Presenter}
+  - "{Presenter}"
 categories:
   - {Type}
   - {Institution}
@@ -149,11 +150,11 @@ categories:
             talk["Title"].lower().replace(" ", "_").replace("/", "_").replace(":", "_")
         )
         links = ""
-        if talk["Type"] == "Short Oral":
-            links = f"""links:
-  - name: Slides
-    file: dummy.pdf
-"""
+        #        if talk["Type"] == "Short Oral":
+        #            links = f"""links:
+        #  - name: Slides
+        #    file: dummy.pdf
+        # """
         # filename should be replaced with {fname}.{talk['SlideExt']}
         with open(Path(".") / "_talks" / f"{fname}.md", "w") as f:
             f.write(content.format(**talk, cats=cats, links=links))
@@ -177,25 +178,28 @@ def generate_predefs():
 
 def generate_persons(tbl: pd.DataFrame):
     content = """---
-name: {name}
-first_name: {fst}
-last_name: {lst}
+name: "{name}"
+first_name: "{fst}"
+last_name: "{lst}"
 ---
 
 """
 
     done_names: set[str] = set()
     for talk in tbl.to_dict("records"):
-        name = talk["Presenter"]
-        if name in done_names:
-            continue
-        done_names.add(name)
-        if name.startswith("Mr."):
-            name = " ".join(name.split(" ")[1:])
-        fst, lst = name.split(" ")
-        fname = name.lower().replace(" ", "_").replace("/", "_").replace(":", "_")
-        with open(Path(".") / "_speakers" / f"{fname}.md", "w") as f:
-            f.write(content.format(name=name, fst=fst, lst=lst))
+        names = talk["Presenter"]
+        for name in names.split("&"):
+            name = name.strip()
+            if name in done_names:
+                continue
+            done_names.add(name)
+            if name.startswith("Mr."):
+                name = " ".join(name.split(" ")[1:])
+            parts = name.split(" ")
+            fst, lst = " ".join(parts[:-1]), parts[-1]
+            fname = name.lower().replace(" ", "_").replace("/", "_").replace(":", "_")
+            with open(Path(".") / "_speakers" / f"{fname}.md", "w") as f:
+                f.write(content.format(name=name, fst=fst, lst=lst))
 
 
 def reset_all():
@@ -210,6 +214,14 @@ def reset_all():
 
 if __name__ == "__main__":
     df = pd.read_excel(sys.argv[1], dtype={"KeywordIDs": str, "Order": int})
+    df["KeywordIDs"] = df["KeywordIDs"].apply(
+        lambda x: ",".join(str(int(float(e))) for e in x.split(","))
+        if isinstance(x, str)
+        else str(int(x))
+        if not pd.isna(x)
+        else ""
+    )
+    df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
     reset_all()
     generate_program(df)
     generate_talks(df)
