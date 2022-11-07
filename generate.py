@@ -91,7 +91,25 @@ PREDEFINED_ENTRIES = [
         ],
     },
     {"name": "Lunch break", "time_start": "11:55", "time_end": "13:00"},
-    {"name": "Short Oral Presentations", "time_start": "13:00", "time_end": "14:30"},
+    {
+        "name": "Short Oral Presentations",
+        "time_start": "13:00",
+        "time_end": "14:30",
+        "detail": """Each of the 5 zoom rooms has 9 presentations and each presenter will make a 6-minute presentation. A 2-minute Q & A is held after each presentation.
+
+
+Chairpersons:
+
+- Room A: Favour Omileke
+- Room B: Zhilei Zhao
+- Room C: Soon Beom Hong
+- Room D: Suhua Chang
+- Room E: Euitae Kim
+
+For more details, please visit [the short oral session program page](/2022/program/#shortoral).
+
+""",
+    },
     {
         "name": "Discussion 3",
         "time_start": "16:40",
@@ -199,11 +217,16 @@ categories:
             talk["Title"].lower().replace(" ", "_").replace("/", "_").replace(":", "_")
         )
         links = ""
-        #        if talk["Type"] == "Short Oral":
-        #            links = f"""links:
-        #  - name: Slides
-        #    file: dummy.pdf
-        # """
+        if talk["Type"] == "Short Oral":
+            search_path = Path(".") / "documents" / "slides"
+            fprefix = str(talk["Room"]) + str(talk["Order"]) + ".*"
+            fcands = list(search_path.glob(fprefix))
+            if len(fcands) == 1:
+                print(f"Found {fcands[0]}")
+                fn = fcands[0].name
+                links = f"""links:
+          - name: Slides
+            file: {fn}"""
         # filename should be replaced with {fname}.{talk['SlideExt']}
         presenters = "\n".join(
             '  - "{}"'.format(name.strip()) for name in talk["Presenter"].split("&")
@@ -227,6 +250,7 @@ def generate_predefs():
                 if item["name"].startswith("Discussion")
                 else "Other"
             )
+            detail = item.get("detail", "")
             speakers = ""
             if "speakers" in item:
                 speakers = "\n".join(
@@ -240,6 +264,7 @@ speakers:
 categories:
   - \"{typ}\"
 ---
+{detail}
 """
             )
 
