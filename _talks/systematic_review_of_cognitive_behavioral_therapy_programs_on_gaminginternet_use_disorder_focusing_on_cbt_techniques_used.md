@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Seoul"
   - Psychosocial therapy/psychoeducation
-
+links:
+  - name: Slides
+    file: E8.pptx
 ---
 
 Object: This study thus aimed to review the contents and CBT techniques used in previously reported CBT programs for IA/IGD. 

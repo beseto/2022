@@ -7,7 +7,9 @@ categories:
   - "Seoul"
   - Mental health & welfare
   - Social psychiatry
-
+links:
+  - name: Slides
+    file: E7.pptx
 ---
 
 Objectives: Biogenetic causal explanations of mental disorders are commonly used for public education and campaigns. However, the influence of biogenetic explanations on the ideas about and attitudes toward mental illness is unclear. We examined the influence of biogenetic explanations on attitudes toward mental disorders using a meta-analytic method accompanied by subgroup analyses. 

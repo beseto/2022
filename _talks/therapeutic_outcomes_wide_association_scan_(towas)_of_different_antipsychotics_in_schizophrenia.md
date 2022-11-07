@@ -7,7 +7,9 @@ categories:
   - "Beijing"
   - Schizophrenia and related disorders
   - Psychopharmacology
-
+links:
+  - name: Slides
+    file: A1.pptx
 ---
 
 Background: We aimed to identify discrepant therapeutic outcomes among different antipsychotics in a RCT. 

@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Beijing"
   - Dementia
-
+links:
+  - name: Slides
+    file: D1.pptx
 ---
 
 Objective: To define the frailty definition, describe incidence and its distribution, and to explore risk factors.

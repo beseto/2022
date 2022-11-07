@@ -8,7 +8,9 @@ categories:
   - Schizophrenia and related disorders
   - Epidemiology
   - Social psychiatry
-
+links:
+  - name: Slides
+    file: A3.pptx
 ---
 
 Gender difference is reported in incidence of schizophrenia. Attention was focused on biological factors such as sex hormones. However, the role of gender has not been fully examined. Although Japan is considered as one of the most gender-disparate countries, there are changes over time and regional differences in several indicators of gender inequality.

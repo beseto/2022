@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Seoul"
   - Childhood & adolescence
-
+links:
+  - name: Slides
+    file: C5.pptx
 ---
 
 Objective: This study aims to explore the mental health of parents whose child has been diagnosed with autism spectrum disorder (ASD).  

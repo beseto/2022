@@ -7,7 +7,9 @@ categories:
   - "Tokyo"
   - Epidemiology
   - Social psychiatry
-
+links:
+  - name: Slides
+    file: E1.pptx
 ---
 
 Previous cross-sectional studies have reported that dissociative symptoms (DIS) are associated with self-harm (SH). We aimed to investigate the longitudinal relationship between DIS and SH in general adolescent population. 

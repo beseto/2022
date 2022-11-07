@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Seoul"
   - Schizophrenia and related disorders
-
+links:
+  - name: Slides
+    file: A2.pptx
 ---
 
 Objective: To examine the neuromelanin (NM) levels of schizophrenia and to determine whether the levels are related to symptom scores

@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Seoul"
   - Pharmacotherapy
-
+links:
+  - name: Slides
+    file: E4.pptx
 ---
 
 Objective: This study aimed to compare the effects of Autonomous sensory meridian response (ASMR) and binaural beat (BB) on stress reduction.

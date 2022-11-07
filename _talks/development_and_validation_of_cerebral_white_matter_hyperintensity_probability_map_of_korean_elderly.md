@@ -7,7 +7,9 @@ categories:
   - "Seoul"
   - Dementia
   - Neuroimaging
-
+links:
+  - name: Slides
+    file: D2.pptx
 ---
 
 Background and Purpose: Although previously constructed white matter hyperintensity (WMH) probability maps of healthy older adults exist, they have several limitations in representing the distribution of WMH in healthy older adults, especially Asian older adults. We developed and validated a WMH probability map (WPM) of healthy older Koreans and examined the age-associated differences of WMH. 

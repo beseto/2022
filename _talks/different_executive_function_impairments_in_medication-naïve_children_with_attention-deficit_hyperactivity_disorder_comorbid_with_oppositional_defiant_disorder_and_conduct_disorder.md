@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Beijing"
   - Childhood & adolescence
-
+links:
+  - name: Slides
+    file: C8.pptx
 ---
 
 Introduction: Disruptive behavior disorders (DBD), including oppositional defiant disorder (ODD) and conduct disorder (CD), is the most common comorbidity in ADHD. Few studies have separated ADHD with CD (ADHDCD+) and ADHD with ODD (ADHDODD+) when studying the executive functions (EFs) and brain imaging of ADHD with DBD (ADHDDBD+).

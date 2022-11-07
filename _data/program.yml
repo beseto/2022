@@ -60,6 +60,29 @@ days:
     - name: Short Oral Presentations
       time_start: '13:00'
       time_end: '14:30'
+      detail: 'Each of the 5 zoom rooms has 9 presentations and each presenter will
+        make a 6-minute presentation. A 2-minute Q & A is held after each presentation.
+
+
+
+        Chairpersons:
+
+
+        - Room A: Favour Omileke
+
+        - Room B: Zhilei Zhao
+
+        - Room C: Soon Beom Hong
+
+        - Room D: Suhua Chang
+
+        - Room E: Euitae Kim
+
+
+        For more details, please visit [the short oral session program page](/2022/program/#shortoral).
+
+
+        '
     - name: Introduction to Tojisha-Kenkyu in Japan
       time_start: '14:35'
       time_end: '15:35'
@@ -79,7 +102,6 @@ days:
       time_end: '17:00'
       speakers:
       - Tianmei Si
-      - Weihua Yue
       - Yueqin Huang
       - Jae-Hyun Han
       - Shuntaro Ando

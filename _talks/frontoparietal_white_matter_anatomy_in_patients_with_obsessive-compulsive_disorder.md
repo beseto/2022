@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Seoul"
   - Neuroimaging
-
+links:
+  - name: Slides
+    file: B5.pptx
 ---
 
 Objective: Despite functional dysconnectivity and altered white matter (WM) integrity of frontoparietal regions, the anatomical profile of the superior longitudinal fasciculus (SLF) remains unclear in the complex pathophysiology of obsessive-compulsive disorder. Thus, we aimed to examine the WM integrity of SLF I, II, and III in patients with OCD.  

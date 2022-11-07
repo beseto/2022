@@ -7,7 +7,9 @@ categories:
   - "Beijing"
   - Schizophrenia and related disorders
   - Neuropsychology
-
+links:
+  - name: Slides
+    file: C9.pptx
 ---
 
 Auditory verbal hallucinations (AVH) are a core positive symptom of schizophrenia and are regarded as a consequence of the functional breakdown in the related sensory process. Yet, the potential mechanism of AVH is still lacking. 

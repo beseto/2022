@@ -7,7 +7,9 @@ categories:
   - "Seoul"
   - Schizophrenia and related disorders
   - Neuropsychology
-
+links:
+  - name: Slides
+    file: A5.pptx
 ---
 
 Objective This study aims to investigate whether verbal fluency task measure other than word count could be a predictor of prognosis, especially remission, of individuals at clinical high risk (CHR) for psychosis.

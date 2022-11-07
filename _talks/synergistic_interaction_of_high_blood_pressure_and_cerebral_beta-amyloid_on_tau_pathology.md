@@ -7,7 +7,9 @@ categories:
   - "Seoul"
   - Dementia
   - Neuropathology
-
+links:
+  - name: Slides
+    file: D7.pptx
 ---
 
 Objective: To understand the link between hypertension and Alzheimer disease, this cross-sectional study examined the relationships of hypertension history and current blood pressure (BP) with in vivo β-amyloid (Aβ) and tau deposition, and whether hypertension history and current BP modulate the relationship between Aβ and tau.

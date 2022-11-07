@@ -7,7 +7,9 @@ categories:
   - "Beijing"
   - Epidemiology
   - Social psychiatry
-
+links:
+  - name: Slides
+    file: E6.pptx
 ---
 
 Objective: To describe the epidemic strength of mental disability, and explore its risk factors.

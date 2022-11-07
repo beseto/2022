@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Seoul"
   - Suicide prevention
-
+links:
+  - name: Slides
+    file: E5.pptx
 ---
 
 Objectives: We established a prediction model for suicide-attempts, validated it in an independent cohort, and developed a computerized prediction program. 

@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Seoul"
   - Dementia
-
+links:
+  - name: Slides
+    file: C2.pptx
 ---
 
 Objective: Primary age-related tauopathy (PART) is a neuropathological entity with neurofibrillary tangles (NFTs) in the absence of beta-amyloid (Aβ) plaques in the brain. We tried to investigate the frequency and rate of cognitive decline in older adults with PART defined by neuroimaging biomarkers.

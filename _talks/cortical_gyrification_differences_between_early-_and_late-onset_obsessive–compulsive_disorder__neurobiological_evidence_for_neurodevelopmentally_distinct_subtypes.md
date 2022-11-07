@@ -6,7 +6,9 @@ categories:
   - "Short Oral"
   - "Seoul"
   - Neuroimaging
-
+links:
+  - name: Slides
+    file: B2.pptx
 ---
 
 Objective. Identifying neurodevelopmental differences in subtypes of patients with obsessive–compulsive disorder (OCD) is critical for understanding complexities of the disorder and establishing biological evidence-based homogeneous subtypes in this heterogeneous population.
