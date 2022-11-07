@@ -218,6 +218,7 @@ categories:
         )
         links = ""
         search_path = Path(".") / "documents" / "slides"
+        fprefix = None
         if talk["Type"] == "Short Oral":
             fprefix = str(talk["Room"]) + str(talk["Order"]) + ".*"
         elif talk["Type"].startswith("Symposium "):
@@ -228,11 +229,12 @@ categories:
                 + str(talk["Order"])
                 + ".*"
             )
-        fcands = list(search_path.glob(fprefix))
-        if len(fcands) == 1:
-            print(f"Found {fcands[0]}")
-            fn = fcands[0].name
-            links = f"""links:
+        if fprefix:
+            fcands = list(search_path.glob(fprefix))
+            if len(fcands) == 1:
+                print(f"Found {fcands[0]}")
+                fn = fcands[0].name
+                links = f"""links:
   - name: Slides
     file: {fn}"""
         # filename should be replaced with {fname}.{talk['SlideExt']}
