@@ -198,3 +198,8 @@ conference:
 
     # Show intermediary time steps (next to full hours)
     show_alltimes: true
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-56630010-2
+
