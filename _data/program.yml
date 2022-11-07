@@ -11,6 +11,8 @@ days:
     - name: Opening
       time_start: '9:00'
       time_end: '9:10'
+      speakers:
+      - Kiyoto Kasai
     - name: Research on Genetic Susceptibility of Schizophrenia
       time_start: '9:10'
       time_end: '9:30'
@@ -24,6 +26,13 @@ days:
     - name: Discussion 1
       time_start: '10:10'
       time_end: '10:30'
+      speakers:
+      - Unggu Kang
+      - In-Young Yoon
+      - Weihua Yue
+      - Yaseung Park
+      - Shinsuke Koike
+      - Naohiro Okada
     - name: "The Attitude and Perception of Physicians on Early Diagnosis and Treatment\
         \ of Alzheimer\u2019s Disease: A Nationwide Cross-sectional Survey (APPEAL)\
         \ in China"
@@ -39,6 +48,12 @@ days:
     - name: Discussion 2
       time_start: '11:35'
       time_end: '11:55'
+      speakers:
+      - Eisuke Sakakibara
+      - Yusuke Takahashi
+      - Huali Wang
+      - Moonyoung Yang
+      - Masashi Mizutani
     - name: Lunch break
       time_start: '11:55'
       time_end: '13:00'
@@ -62,9 +77,17 @@ days:
     - name: Discussion 3
       time_start: '16:40'
       time_end: '17:00'
+      speakers:
+      - Tianmei Si
+      - Weihua Yue
+      - Yueqin Huang
+      - Jae-Hyun Han
+      - Shuntaro Ando
     - name: Closing
       time_start: '17:00'
       time_end: '17:10'
+      speakers:
+      - Eisuke Sakakibara
 - name: Short Oral Sessions
   abbr: ShortOral
   date: '2022-11-13'
@@ -91,15 +114,15 @@ days:
       time_end: '13:50'
     - name: 'Discrimination of auditory verbal hallucination in schizophrenia based
         on the brain networks: an EEG study'
-      time_start: '14:00'
-      time_end: '14:10'
+      time_start: '13:50'
+      time_end: '14:00'
     - name: Clinical Characteristics of Comorbid Tic Disorders in Autism Spectrum
         Disorder-Exploratory Analysis
+      time_start: '14:00'
+      time_end: '14:10'
+    - name: The Role of Betaine in Schizophrenia
       time_start: '14:10'
       time_end: '14:20'
-    - name: The Role of Betaine in Schizophrenia
-      time_start: '14:20'
-      time_end: '14:30'
   - name: Room B
     talks:
     - name: Incongruent grey matter atrophy and functional connectivity of striatal
@@ -216,7 +239,8 @@ days:
       time_end: '14:30'
   - name: Room E
     talks:
-    - name: An epidemiological study of mental disability in community adults in China
+    - name: 'The longitudinal relationship between dissociative symptoms and self-harm
+        in adolescents: A population-based cohort study.'
       time_start: '13:00'
       time_end: '13:10'
     - name: Analyses of REM sleep without atonia and neurocognitive function in REM
@@ -235,8 +259,7 @@ days:
         prospective cohort study'
       time_start: '13:40'
       time_end: '13:50'
-    - name: 'The Longitudinal Relationship between Dissociative Symptoms and Self-harm
-        in Adolescents: A Population-based Cohort Study'
+    - name: An epidemiological study of mental disability in community adults in China
       time_start: '13:50'
       time_end: '14:00'
     - name: Influence of biogenetic explanations of mental disorders on stigma and

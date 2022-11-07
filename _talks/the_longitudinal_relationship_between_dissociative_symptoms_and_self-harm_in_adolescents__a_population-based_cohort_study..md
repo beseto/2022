@@ -1,13 +1,12 @@
 ---
-name: "The Longitudinal Relationship between Dissociative Symptoms and Self-harm in Adolescents: A Population-based Cohort Study"
+name: "The longitudinal relationship between dissociative symptoms and self-harm in adolescents: A population-based cohort study."
 speakers:
   - "Riki Tanaka"
 categories:
   - "Short Oral"
   - "Tokyo"
-  - Neurotic disorders
-  - Childhood & adolescence
-  - Suicide prevention
+  - Epidemiology
+  - Social psychiatry
 
 ---
 

@@ -1,6 +1,6 @@
 ---
-name: "Weihua yue"
+name: "Weihua Yue"
 first_name: "Weihua"
-last_name: "yue"
+last_name: "Yue"
 ---
 

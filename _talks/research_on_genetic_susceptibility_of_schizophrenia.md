@@ -1,7 +1,7 @@
 ---
 name: "Research on Genetic Susceptibility of Schizophrenia"
 speakers:
-  - "Weihua yue"
+  - "Weihua Yue"
 categories:
   - "Symposium 1: Neuroscience and Biological Psychiatry"
   - "Beijing"
