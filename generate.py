@@ -131,7 +131,7 @@ def generate_talks(tbl: pd.DataFrame):
     content = """---
 name: "{Title}"
 speakers:
-  - "{Presenter}"
+{presenters}
 categories:
   - {Type}
   - {Institution}
@@ -156,8 +156,13 @@ categories:
         #    file: dummy.pdf
         # """
         # filename should be replaced with {fname}.{talk['SlideExt']}
+        presenters = "\n".join(
+            '  - "{}"'.format(name.strip()) for name in talk["Presenter"].split("&")
+        )
         with open(Path(".") / "_talks" / f"{fname}.md", "w") as f:
-            f.write(content.format(**talk, cats=cats, links=links))
+            f.write(
+                content.format(**talk, cats=cats, links=links, presenters=presenters)
+            )
 
 
 def generate_predefs():
@@ -187,8 +192,7 @@ last_name: "{lst}"
 
     done_names: set[str] = set()
     for talk in tbl.to_dict("records"):
-        names = talk["Presenter"]
-        for name in names.split("&"):
+        for name in talk["Presenter"].split("&"):
             name = name.strip()
             if name in done_names:
                 continue
