@@ -1,7 +1,7 @@
 ---
 name: "Influence of biogenetic explanations of mental disorders on stigma and help seeking behavior A systematic review and meta analysis"
 speakers:
-  - "Changyeon Baek"
+  - "Changhyeon Baek"
 categories:
   - "Short Oral"
   - "Seoul"

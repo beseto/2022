@@ -1,7 +1,7 @@
 ---
 name: "Discrimination of auditory verbal hallucination in schizophrenia based on the brain networks: an EEG study"
 speakers:
-  - "Jiuju Jung"
+  - "Jinju Jung"
 categories:
   - "Short Oral"
   - "Beijing"

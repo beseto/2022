@@ -1,7 +1,7 @@
 ---
 name: "Mental Health Concerns in Parents of Children with Autism Spectrum Disorder"
 speakers:
-  - "Da-Yae Song"
+  - "Da-Yea Song"
 categories:
   - "Short Oral"
   - "Seoul"

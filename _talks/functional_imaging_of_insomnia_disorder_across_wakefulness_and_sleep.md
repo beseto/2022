@@ -1,7 +1,7 @@
 ---
 name: "Functional imaging of insomnia disorder across wakefulness and sleep"
 speakers:
-  - "Yupeng Guo"
+  - "Yu-Peng Guo"
 categories:
   - "Short Oral"
   - "Beijing"

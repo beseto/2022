@@ -1,5 +1,5 @@
 ---
-name: "Gender Effect on the Incidence of Schizophrenia in Japan"
+name: "Gender effect on the incidence of schizophrenia in Japan"
 speakers:
   - "Yukata Sawai"
 categories:
