@@ -256,13 +256,13 @@ days:
       time_start: '14:10'
       time_end: '14:20'
     - name: Analysis of the relationship between activated plasma MMP9 levels and
-        volumes of subcortical regions.
+        volumes of subcortical regions
       time_start: '14:20'
       time_end: '14:30'
   - name: Room E
     talks:
     - name: 'The longitudinal relationship between dissociative symptoms and self-harm
-        in adolescents: A population-based cohort study.'
+        in adolescents: A population-based cohort study'
       time_start: '13:00'
       time_end: '13:10'
     - name: Analyses of REM sleep without atonia and neurocognitive function in REM

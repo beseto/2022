@@ -1,10 +1,10 @@
 ---
-name: "Analysis of the relationship between activated plasma MMP9 levels and volumes of subcortical regions."
+name: "Analysis of the relationship between activated plasma MMP9 levels and volumes of subcortical regions"
 speakers:
   - "Shunsuke Mori"
 categories:
   - "Short Oral"
-  - "Beijing"
+  - "Tokyo"
   - Genetics & molecular genetics
   - Neuroimaging
 links:

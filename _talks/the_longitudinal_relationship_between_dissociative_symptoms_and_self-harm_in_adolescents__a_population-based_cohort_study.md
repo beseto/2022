@@ -1,5 +1,5 @@
 ---
-name: "The longitudinal relationship between dissociative symptoms and self-harm in adolescents: A population-based cohort study."
+name: "The longitudinal relationship between dissociative symptoms and self-harm in adolescents: A population-based cohort study"
 speakers:
   - "Riki Tanaka"
 categories:

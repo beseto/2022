@@ -1,7 +1,7 @@
 ---
 name: "The associations of behavioral/emotional problems with testosterone and amygdala volume in early adolescent boys"
 speakers:
-  - "Mashiro Kiyota"
+  - "Masahiro Kiyota"
 categories:
   - "Short Oral"
   - "Tokyo"
