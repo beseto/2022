@@ -3,8 +3,8 @@ name: "Clinical Characteristics of Comorbid Tic Disorders in Autism Spectrum Dis
 speakers:
   - "Ye Rim Kim"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Childhood & adolescence
 
 ---

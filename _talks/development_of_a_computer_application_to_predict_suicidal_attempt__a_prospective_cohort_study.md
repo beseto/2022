@@ -3,8 +3,8 @@ name: "Development of a computer application to predict suicidal attempt: A pros
 speakers:
   - "Jeong Hun Yang"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Suicide prevention
 
 ---

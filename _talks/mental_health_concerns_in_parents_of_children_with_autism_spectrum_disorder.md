@@ -3,8 +3,8 @@ name: "Mental Health Concerns in Parents of Children with Autism Spectrum Disord
 speakers:
   - "Da-Yae Song"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Childhood & adolescence
 
 ---

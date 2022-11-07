@@ -3,8 +3,8 @@ name: "Development and validation of cerebral white matter hyperintensity probab
 speakers:
   - "Jun Sung Kim"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Dementia
   - Neuroimaging
 

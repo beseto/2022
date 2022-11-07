@@ -3,8 +3,8 @@ name: "Optimal conditions for entraining gamma waves using sensory stimulation i
 speakers:
   - "Yaseung Park"
 categories:
-  - Symposium 1
-  - Seoul
+  - "Symposium 1: Neuroscience and Biological Psychiatry"
+  - "Seoul"
   - Dementia
   - ECT/TMS/neuromodulation
 

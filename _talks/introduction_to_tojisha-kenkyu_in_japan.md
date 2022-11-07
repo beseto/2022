@@ -3,8 +3,8 @@ name: "Introduction to Tojisha-Kenkyu in Japan"
 speakers:
   - "Shinichiro Kumagaya"
 categories:
-  - Special Talk
-  - Tokyo
+  - "Special Talk"
+  - "Tokyo"
 
 ---
 

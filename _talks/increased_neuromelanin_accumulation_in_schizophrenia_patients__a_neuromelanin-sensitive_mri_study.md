@@ -3,8 +3,8 @@ name: "Increased neuromelanin accumulation in schizophrenia patients: a neuromel
 speakers:
   - "Sunah Choi"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Schizophrenia and related disorders
 
 ---

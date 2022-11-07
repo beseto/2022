@@ -3,8 +3,8 @@ name: "The segregation of emotion dysregulation in adults with ADHD from the com
 speakers:
   - "Qianrong Liu"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Neuropathology
   - Neuroimaging
 

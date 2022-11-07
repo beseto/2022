@@ -3,8 +3,8 @@ name: "Prenatal and Perinatal risk factors for Autism spectrum disorder"
 speakers:
   - "Jae-Hyun Han"
 categories:
-  - Symposium 3
-  - Seoul
+  - "Symposium 3: Stress and Social Psychiatry"
+  - "Seoul"
   - Laboratory tests/biomarkers
   - Social psychiatry
   - Mental health & welfare

@@ -3,8 +3,8 @@ name: "Gender Effect on the Incidence of Schizophrenia in Japan"
 speakers:
   - "Yukata Sawai"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Schizophrenia and related disorders
   - Epidemiology
   - Social psychiatry

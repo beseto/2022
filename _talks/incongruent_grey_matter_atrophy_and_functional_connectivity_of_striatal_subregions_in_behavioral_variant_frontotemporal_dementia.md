@@ -3,8 +3,8 @@ name: "Incongruent grey matter atrophy and functional connectivity of striatal s
 speakers:
   - "Huizi Li"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Neuropsychology
   - Neuroimaging
 

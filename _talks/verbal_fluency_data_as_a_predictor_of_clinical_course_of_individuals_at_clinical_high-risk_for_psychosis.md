@@ -3,8 +3,8 @@ name: "Verbal fluency data as a predictor of clinical course of individuals at c
 speakers:
   - "Eugenie Choe"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Schizophrenia and related disorders
   - Neuropsychology
 

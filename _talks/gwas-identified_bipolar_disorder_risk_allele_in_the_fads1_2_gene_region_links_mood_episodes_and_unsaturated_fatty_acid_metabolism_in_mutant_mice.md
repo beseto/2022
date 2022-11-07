@@ -3,8 +3,8 @@ name: "GWAS-identified bipolar disorder risk allele in the FADS1/2 gene region l
 speakers:
   - "Hirona Yamamoto"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Genetics & molecular genetics
   - Animal model/basic research
 

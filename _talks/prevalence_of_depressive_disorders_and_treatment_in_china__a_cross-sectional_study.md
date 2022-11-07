@@ -3,8 +3,8 @@ name: "Prevalence of Depressive Disorders and Treatment in China: A Cross-sectio
 speakers:
   - "Yueqin Huang"
 categories:
-  - Symposium 3
-  - Beijing
+  - "Symposium 3: Stress and Social Psychiatry"
+  - "Beijing"
   - Epidemiology
   - Social psychiatry
 

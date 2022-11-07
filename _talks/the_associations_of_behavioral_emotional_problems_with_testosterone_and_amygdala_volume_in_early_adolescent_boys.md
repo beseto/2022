@@ -3,8 +3,8 @@ name: "The associations of behavioral/emotional problems with testosterone and a
 speakers:
   - "Mashiro Kiyota"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Childhood & adolescence
   - Neuroimaging
 

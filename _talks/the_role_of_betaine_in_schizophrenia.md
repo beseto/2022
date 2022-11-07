@@ -3,8 +3,8 @@ name: "The Role of Betaine in Schizophrenia"
 speakers:
   - "Favour Omileke"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Schizophrenia and related disorders
   - Neuroimaging
 

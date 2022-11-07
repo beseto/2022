@@ -3,8 +3,8 @@ name: "A Phase 3, Multicenter, Double-blind, Randomized, Placebo-controlled Clin
 speakers:
   - "Weifeng Mi"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Psychopharmacology
 
 ---

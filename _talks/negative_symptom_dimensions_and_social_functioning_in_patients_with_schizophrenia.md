@@ -3,8 +3,8 @@ name: "Negative Symptom Dimensions and Social Functioning in Patients with Schiz
 speakers:
   - "Tianqi Gao"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Schizophrenia and related disorders
   - Symptomatology
 

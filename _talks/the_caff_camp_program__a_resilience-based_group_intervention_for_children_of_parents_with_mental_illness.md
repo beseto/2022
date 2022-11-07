@@ -3,8 +3,8 @@ name: "The CAFF Camp Program: A Resilience-based Group Intervention for Children
 speakers:
   - "Tianhang Zhou"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Childhood & adolescence
   - Community mental health services
   - Social psychiatry

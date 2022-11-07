@@ -3,8 +3,8 @@ name: "Frontoparietal White Matter Anatomy in Patients with Obsessive-Compulsive
 speakers:
   - "Hyungyou Park"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Neuroimaging
 
 ---

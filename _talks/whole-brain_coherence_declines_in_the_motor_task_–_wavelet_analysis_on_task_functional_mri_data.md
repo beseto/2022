@@ -3,8 +3,8 @@ name: "Whole-brain coherence declines in the motor task – Wavelet analysis on 
 speakers:
   - "Eimu Shoji"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Neuroimaging
 
 ---

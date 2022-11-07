@@ -3,8 +3,8 @@ name: "Longitudinal Relations between Mismatch Negativity and Psychological Diff
 speakers:
   - "Kaori Usui"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Childhood & adolescence
   - Neuropsychology
   - Neurophysiology

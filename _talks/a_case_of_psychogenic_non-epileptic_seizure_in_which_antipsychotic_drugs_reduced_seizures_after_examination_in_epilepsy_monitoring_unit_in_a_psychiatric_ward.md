@@ -3,8 +3,8 @@ name: "A case of psychogenic non-epileptic seizure in which antipsychotic drugs 
 speakers:
   - "Yusuke Takahashi"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Neurotic disorders
   - Epilepsy
   - Neuropsychology

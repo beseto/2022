@@ -3,8 +3,8 @@ name: "An epidemiological study of mental disability in community adults in Chin
 speakers:
   - "Yuanyuan Li"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Epidemiology
   - Social psychiatry
 

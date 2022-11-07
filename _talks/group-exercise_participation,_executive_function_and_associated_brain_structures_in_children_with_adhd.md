@@ -3,8 +3,8 @@ name: "Group-exercise participation, executive function and associated brain str
 speakers:
   - "Rio Yamaguchi"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Childhood & adolescence
   - Neuroimaging
   - Others

@@ -3,8 +3,8 @@ name: "Genome-wide gene-environment interaction analysis of childhood maltreatme
 speakers:
   - "Yaoyao Sun"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Mood disorders
   - Genetics & molecular genetics
 

@@ -3,8 +3,8 @@ name: "Comparison of Autonomous sensory meridian response and binaural auditory 
 speakers:
   - "Minji Lee"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Pharmacotherapy
 
 ---

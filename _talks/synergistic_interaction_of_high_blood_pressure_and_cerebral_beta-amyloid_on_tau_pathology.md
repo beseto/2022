@@ -3,8 +3,8 @@ name: "Synergistic interaction of high blood pressure and cerebral beta-amyloid 
 speakers:
   - "Taewon Kim"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Dementia
   - Neuropathology
 

@@ -3,8 +3,8 @@ name: "Characteristics of primary age-related tauopathy defined by neuroimaging 
 speakers:
   - "Joon Hyung Jung"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Dementia
 
 ---

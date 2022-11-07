@@ -3,8 +3,8 @@ name: "Epilepsy Intervention in Psychiatric Ward"
 speakers:
   - "Mao Fujioka"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Neurotic disorders
   - Epilepsy
   - Neuropsychology

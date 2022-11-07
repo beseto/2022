@@ -3,8 +3,8 @@ name: "Being Praised for Prosocial Behaviour Longitudinally reduces Depressive S
 speakers:
   - "Daiki Nagaoka"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Mood disorders
   - Childhood & adolescence
   - Epidemiology

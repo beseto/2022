@@ -3,8 +3,8 @@ name: "Relationship between sleep disturbances and dementia"
 speakers:
   - "Le Shi"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Sleep disorders
   - Mental disorders in old age
 

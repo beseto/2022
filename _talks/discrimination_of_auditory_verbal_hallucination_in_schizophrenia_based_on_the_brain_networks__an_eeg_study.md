@@ -3,8 +3,8 @@ name: "Discrimination of auditory verbal hallucination in schizophrenia based on
 speakers:
   - "Jiuju Jung"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Schizophrenia and related disorders
   - Neuropsychology
 

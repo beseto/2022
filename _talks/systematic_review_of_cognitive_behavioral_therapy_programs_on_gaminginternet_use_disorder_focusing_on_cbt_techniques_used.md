@@ -3,8 +3,8 @@ name: "Systematic Review of Cognitive Behavioral Therapy Programs on GamingInter
 speakers:
   - "Seon Young Park"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Psychosocial therapy/psychoeducation
 
 ---

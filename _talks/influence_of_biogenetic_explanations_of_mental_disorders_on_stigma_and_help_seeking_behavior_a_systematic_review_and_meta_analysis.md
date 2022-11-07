@@ -3,8 +3,8 @@ name: "Influence of biogenetic explanations of mental disorders on stigma and he
 speakers:
   - "Changyeon Baek"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Mental health & welfare
   - Social psychiatry
 

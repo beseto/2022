@@ -1,5 +1,5 @@
 ---
 name: Opening
 categories:
-  - Other
+  - "Other"
 ---

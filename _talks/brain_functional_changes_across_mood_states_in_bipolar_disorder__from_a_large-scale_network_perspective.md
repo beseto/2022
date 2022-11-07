@@ -3,8 +3,8 @@ name: "Brain functional changes across mood states in bipolar disorder: from a l
 speakers:
   - "Yankun Wu"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Mood disorders
   - Neuroimaging
 

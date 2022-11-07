@@ -3,8 +3,8 @@ name: "The Longitudinal Relationship between Dissociative Symptoms and Self-harm
 speakers:
   - "Riki Tanaka"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Neurotic disorders
   - Childhood & adolescence
   - Suicide prevention

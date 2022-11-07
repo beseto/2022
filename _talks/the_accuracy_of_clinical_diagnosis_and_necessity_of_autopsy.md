@@ -3,8 +3,8 @@ name: "The Accuracy of Clinical Diagnosis and Necessity of Autopsy"
 speakers:
   - "Masashi Mizutani"
 categories:
-  - Symposium 2
-  - Tokyo
+  - "Symposium 2: Emotion, Cognition, and Behavior"
+  - "Tokyo"
   - Neuropathology
   - Psychiatric diagnosis
 

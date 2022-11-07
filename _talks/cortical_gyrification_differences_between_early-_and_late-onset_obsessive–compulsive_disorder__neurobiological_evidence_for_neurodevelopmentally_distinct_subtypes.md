@@ -3,8 +3,8 @@ name: "Cortical gyrification differences between early- and late-onset obsessive
 speakers:
   - "Inkyung Park"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Neuroimaging
 
 ---

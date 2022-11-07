@@ -3,8 +3,8 @@ name: "Functional imaging of insomnia disorder across wakefulness and sleep"
 speakers:
   - "Yupeng Guo"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Sleep disorders
   - Neuroimaging
 

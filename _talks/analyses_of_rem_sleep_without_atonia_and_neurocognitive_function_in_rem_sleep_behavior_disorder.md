@@ -3,8 +3,8 @@ name: "Analyses of REM sleep without atonia and neurocognitive function in REM s
 speakers:
   - "Ji Soo Kim"
 categories:
-  - Short Oral
-  - Seoul
+  - "Short Oral"
+  - "Seoul"
   - Sleep disorders
 
 ---

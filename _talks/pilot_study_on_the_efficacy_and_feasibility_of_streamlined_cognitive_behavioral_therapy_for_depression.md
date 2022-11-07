@@ -3,8 +3,8 @@ name: "Pilot Study on the Efficacy and Feasibility of Streamlined Cognitive Beha
 speakers:
   - "Naoki Takamatsu"
 categories:
-  - Short Oral
-  - Tokyo
+  - "Short Oral"
+  - "Tokyo"
   - Mood disorders
   - Psychotherapy
   - Psychosocial therapy/psychoeducation

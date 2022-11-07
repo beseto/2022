@@ -3,8 +3,8 @@ name: "A 15-year follow-up study of dementia"
 speakers:
   - "Wenlei Wu"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Dementia
 
 ---

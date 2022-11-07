@@ -3,8 +3,8 @@ name: "Analysis of the relationship between activated plasma MMP9 levels and vol
 speakers:
   - "Shunsuke Mori"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Genetics & molecular genetics
   - Neuroimaging
 

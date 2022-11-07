@@ -3,8 +3,8 @@ name: "Different executive function impairments in medication-naïve children wi
 speakers:
   - "Ningning Liu"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Childhood & adolescence
 
 ---

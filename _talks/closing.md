@@ -1,5 +1,5 @@
 ---
 name: Closing
 categories:
-  - Other
+  - "Other"
 ---

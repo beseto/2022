@@ -3,8 +3,8 @@ name: "Tokyo Teen Cohort Study: A Prospective Cohort Study on General Population
 speakers:
   - "Shuntaro Ando"
 categories:
-  - Symposium 3
-  - Tokyo
+  - "Symposium 3: Stress and Social Psychiatry"
+  - "Tokyo"
   - Childhood & adolescence
 
 ---

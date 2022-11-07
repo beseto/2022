@@ -3,8 +3,8 @@ name: "Altered cortical gyrification as a predictive marker of treatment resista
 speakers:
   - "Moonyoung Yang"
 categories:
-  - Symposium 2
-  - Seoul
+  - "Symposium 2: Emotion, Cognition, and Behavior"
+  - "Seoul"
   - Schizophrenia and related disorders
   - Neuroimaging
 

@@ -3,8 +3,8 @@ name: "The Attitude and Perception of Physicians on Early Diagnosis and Treatmen
 speakers:
   - "Huali Wang"
 categories:
-  - Symposium 2
-  - Beijing
+  - "Symposium 2: Emotion, Cognition, and Behavior"
+  - "Beijing"
   - Laboratory tests/biomarkers
 
 ---

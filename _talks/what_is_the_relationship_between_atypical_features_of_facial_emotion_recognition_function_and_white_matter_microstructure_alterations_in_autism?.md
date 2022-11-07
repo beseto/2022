@@ -3,8 +3,8 @@ name: "What is the relationship between atypical features of facial emotion reco
 speakers:
   - "Xing Su"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Childhood & adolescence
   - Neuroimaging
 

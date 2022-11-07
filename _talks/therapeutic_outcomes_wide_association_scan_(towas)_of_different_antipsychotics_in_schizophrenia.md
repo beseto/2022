@@ -3,8 +3,8 @@ name: "Therapeutic outcomes wide association scan (TOWAS) of different antipsych
 speakers:
   - "Zhe Lu"
 categories:
-  - Short Oral
-  - Beijing
+  - "Short Oral"
+  - "Beijing"
   - Schizophrenia and related disorders
   - Psychopharmacology
 
