@@ -59,13 +59,56 @@ keywords = [
 
 PREDEFINED_ENTRIES = [
     {"name": "Sign in on Zoom", "time_start": "8:30", "time_end": "9:00"},
-    {"name": "Opening", "time_start": "9:00", "time_end": "9:10"},
-    {"name": "Discussion 1", "time_start": "10:10", "time_end": "10:30"},
-    {"name": "Discussion 2", "time_start": "11:35", "time_end": "11:55"},
+    {
+        "name": "Opening",
+        "time_start": "9:00",
+        "time_end": "9:10",
+        "speakers": ["Kiyoto Kasai"],
+    },
+    {
+        "name": "Discussion 1",
+        "time_start": "10:10",
+        "time_end": "10:30",
+        "speakers": [
+            "Unggu Kang",
+            "In-Young Yoon",
+            "Weihua Yue",
+            "Yaseung Park",
+            "Shinsuke Koike",
+            "Naohiro Okada",
+        ],
+    },
+    {
+        "name": "Discussion 2",
+        "time_start": "11:35",
+        "time_end": "11:55",
+        "speakers": [
+            "Eisuke Sakakibara",
+            "Yusuke Takahashi",
+            "Huali Wang",
+            "Moonyoung Yang",
+            "Masashi Mizutani",
+        ],
+    },
     {"name": "Lunch break", "time_start": "11:55", "time_end": "13:00"},
     {"name": "Short Oral Presentations", "time_start": "13:00", "time_end": "14:30"},
-    {"name": "Discussion 3", "time_start": "16:40", "time_end": "17:00"},
-    {"name": "Closing", "time_start": "17:00", "time_end": "17:10"},
+    {
+        "name": "Discussion 3",
+        "time_start": "16:40",
+        "time_end": "17:00",
+        "speakers": [
+            "Tianmei Si",
+            "Yueqin Huang",
+            "Jae-Hyun Han",
+            "Shuntaro Ando",
+        ],
+    },
+    {
+        "name": "Closing",
+        "time_start": "17:00",
+        "time_end": "17:10",
+        "speakers": ["Eisuke Sakakibara"],
+    },
 ]
 
 
@@ -184,17 +227,39 @@ def generate_predefs():
                 if item["name"].startswith("Discussion")
                 else "Other"
             )
-            f.write(f"---\nname: {item['name']}\ncategories:\n  - \"{typ}\"\n---\n")
+            speakers = ""
+            if "speakers" in item:
+                speakers = "\n".join(
+                    '  - "{}"'.format(speaker) for speaker in item["speakers"]
+                )
+            f.write(
+                f"""---
+name: {item['name']}
+speakers:
+{speakers}
+categories:
+  - \"{typ}\"
+---
+"""
+            )
 
 
 def generate_persons(tbl: pd.DataFrame):
-    content = """---
+    def gen_person(name):
+        content = """---
 name: "{name}"
 first_name: "{fst}"
 last_name: "{lst}"
 ---
 
 """
+        if name.startswith("Mr."):
+            name = " ".join(name.split(" ")[1:])
+        parts = name.split(" ")
+        fst, lst = " ".join(parts[:-1]), parts[-1]
+        fname = name.lower().replace(" ", "_").replace("/", "_").replace(":", "_")
+        with open(Path(".") / "_speakers" / f"{fname}.md", "w") as f:
+            f.write(content.format(name=name, fst=fst, lst=lst))
 
     done_names: set[str] = set()
     for talk in tbl.to_dict("records"):
@@ -203,13 +268,15 @@ last_name: "{lst}"
             if name in done_names:
                 continue
             done_names.add(name)
-            if name.startswith("Mr."):
-                name = " ".join(name.split(" ")[1:])
-            parts = name.split(" ")
-            fst, lst = " ".join(parts[:-1]), parts[-1]
-            fname = name.lower().replace(" ", "_").replace("/", "_").replace(":", "_")
-            with open(Path(".") / "_speakers" / f"{fname}.md", "w") as f:
-                f.write(content.format(name=name, fst=fst, lst=lst))
+            gen_person(name)
+    for item in PREDEFINED_ENTRIES:
+        if "speakers" not in item:
+            continue
+        for name in item["speakers"]:
+            if name in done_names:
+                continue
+            done_names.add(name)
+            gen_person(name)
 
 
 def reset_all():
