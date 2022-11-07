@@ -217,16 +217,24 @@ categories:
             talk["Title"].lower().replace(" ", "_").replace("/", "_").replace(":", "_")
         )
         links = ""
+        search_path = Path(".") / "documents" / "slides"
         if talk["Type"] == "Short Oral":
-            search_path = Path(".") / "documents" / "slides"
             fprefix = str(talk["Room"]) + str(talk["Order"]) + ".*"
-            fcands = list(search_path.glob(fprefix))
-            if len(fcands) == 1:
-                print(f"Found {fcands[0]}")
-                fn = fcands[0].name
-                links = f"""links:
-          - name: Slides
-            file: {fn}"""
+        elif talk["Type"].startswith("Symposium "):
+            fprefix = (
+                "S"
+                + talk["Type"].removeprefix("Symposium ")[0]
+                + "_"
+                + str(talk["Order"])
+                + ".*"
+            )
+        fcands = list(search_path.glob(fprefix))
+        if len(fcands) == 1:
+            print(f"Found {fcands[0]}")
+            fn = fcands[0].name
+            links = f"""links:
+  - name: Slides
+    file: {fn}"""
         # filename should be replaced with {fname}.{talk['SlideExt']}
         presenters = "\n".join(
             '  - "{}"'.format(name.strip()) for name in talk["Presenter"].split("&")
