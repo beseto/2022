@@ -160,11 +160,11 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Symposium 1
+      - name: "Symposium 1: Neuroscience and Biological Psychiatry"
         color: info
-      - name: Symposium 2
+      - name: "Symposium 2: Emotion, Cognition, and Behavior"
         color: success
-      - name: Symposium 3
+      - name: "Symposium 3: Stress and Social Psychiatry"
         color: warning
       - name: Special Talk
         color: danger

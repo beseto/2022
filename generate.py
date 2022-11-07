@@ -4,6 +4,12 @@ import sys
 from pathlib import Path
 import yaml
 
+type_map = {
+    "Symposium 1": "Symposium 1: Neuroscience and Biological Psychiatry",
+    "Symposium 2": "Symposium 2: Emotion, Cognition, and Behavior",
+    "Symposium 3": "Symposium 3: Stress and Social Psychiatry",
+}
+
 keywords = [
     "",
     "Schizophrenia and related disorders",
@@ -133,8 +139,8 @@ name: "{Title}"
 speakers:
 {presenters}
 categories:
-  - {Type}
-  - {Institution}
+  - "{Type}"
+  - "{Institution}"
 {cats}{links}
 ---
 
@@ -174,11 +180,11 @@ def generate_predefs():
             "w",
         ) as f:
             typ = (
-                item["name"].replace("Discussion", "Symposium")
+                type_map[item["name"].replace("Discussion", "Symposium")]
                 if item["name"].startswith("Discussion")
                 else "Other"
             )
-            f.write(f"---\nname: {item['name']}\ncategories:\n  - {typ}\n---\n")
+            f.write(f"---\nname: {item['name']}\ncategories:\n  - \"{typ}\"\n---\n")
 
 
 def generate_persons(tbl: pd.DataFrame):
@@ -225,6 +231,7 @@ if __name__ == "__main__":
         if not pd.isna(x)
         else ""
     )
+    df["Type"] = df["Type"].replace(type_map)
     df = df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
     reset_all()
     generate_program(df)
