@@ -1,5 +1,5 @@
 ---
-name: "Systematic Review of Cognitive Behavioral Therapy Programs on GamingInternet Use Disorder Focusing on CBT Techniques Used"
+name: "Systematic Review of Cognitive Behavioral Therapy Programs on Gaming/Internet Use Disorder: Focusing on CBT Techniques Used"
 speakers:
   - "Seon Young Park"
 categories:
