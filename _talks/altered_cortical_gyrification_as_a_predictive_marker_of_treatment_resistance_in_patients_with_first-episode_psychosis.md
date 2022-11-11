@@ -1,7 +1,7 @@
 ---
 name: "Altered cortical gyrification as a predictive marker of treatment resistance in patients with first-episode psychosis"
 speakers:
-  - "Moonyoung Yang"
+  - "Moonyoung Jang"
 categories:
   - "Symposium 2: Emotion, Cognition, and Behavior"
   - "Seoul"
