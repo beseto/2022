@@ -4,7 +4,7 @@ speakers:
   - "Eisuke Sakakibara"
   - "Yusuke Takahashi"
   - "Huali Wang"
-  - "Moonyoung Yang"
+  - "Moonyoung Jang"
   - "Masashi Mizutani"
 categories:
   - "Symposium 2: Emotion, Cognition, and Behavior"
