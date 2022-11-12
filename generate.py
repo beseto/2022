@@ -86,7 +86,7 @@ PREDEFINED_ENTRIES = [
             "Eisuke Sakakibara",
             "Yusuke Takahashi",
             "Huali Wang",
-            "Moonyoung Yang",
+            "Moonyoung Jang",
             "Masashi Mizutani",
         ],
     },
