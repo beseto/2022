@@ -132,19 +132,19 @@ conference:
   #    pages_only: true
 
   # Live indications
-  live:
-    date: 2022-11-13
-    timezone: GMT+9
-    stop:       240  # in minutes
-    streaming:
-      enable: false
-      pause:     60  # in minutes
-      prepend:    5  # in minutes
-      extend:     5  # in minutes
-    demo:
-      enable: false
-      duration: 300  # in seconds
-      pause:     10  # in seconds
+  #live:
+  #  date: 2022-11-13
+  #  timezone: GMT+9
+  #  stop:       240  # in minutes
+  #  streaming:
+  #    enable: false
+  #    pause:     60  # in minutes
+  #    prepend:    5  # in minutes
+  #    extend:     5  # in minutes
+  #  demo:
+  #    enable: false
+  #    duration: 300  # in seconds
+  #    pause:     10  # in seconds
 
   #map:
   #  # Initial map center point
